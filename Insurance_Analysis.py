@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline 
+# %matplotlib inline 
 ins=pd.read_csv("insurance.csv")
 tot=ins.count()
 s=ins['sex'].value_counts()
